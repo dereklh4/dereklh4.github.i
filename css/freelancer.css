@@ -247,7 +247,8 @@ header.masthead {
       font-size: 3em;
       margin: 0; }
     .portfolio-modal .modal-dialog .modal-content img {
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      max-width: 50%; }
     .portfolio-modal .modal-dialog .modal-content .item-details {
       margin: 30px 0; }
 
