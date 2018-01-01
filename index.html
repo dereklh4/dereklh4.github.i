@@ -157,7 +157,7 @@
               <img class="img-fluid" src="img/utilitytracker.png" alt="">
             </div>
           </div>
-          <div class="col-sm-2"></div>
+          <!-- <div class="col-sm-2"></div> -->
           <div class="col-sm-4 portfolio-item">
             <div class="portfolio-link" href="#projectModal4" data-toggle="modal">
               <div class="caption">
@@ -178,7 +178,17 @@
               <img class="img-fluid" src="img/indexer.png" alt="">
             </div>
           </div>
-          <div class="col-sm-2"></div>
+          <div class="col-sm-4 portfolio-item">
+            <div class="portfolio-link" href="#projectModal6" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/openmp_othello.jpg" alt="">
+            </div>
+          </div>
+          <!-- <div class="col-sm-2"></div> -->
         </div>
       </div>
     </section>
@@ -449,50 +459,6 @@
         </div>
       </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2>Project Title</h2>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="img/portfolio/submarine.png" alt="">
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="http://startbootstrap.com">April 2014</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="http://startbootstrap.com">Web Development</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- Projects Modals -->
     <div class="portfolio-modal modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -600,7 +566,7 @@
                           <hr class="star-primary">
                           <img class="img-fluid img-centered" src="img/reversi.png" alt="">
                           <p>Some of my favorite projects have involved AI and machine learning, from potential fields and part of speech tagging to building neural networks and decision trees from scratch.
-                            In this one, I wrote an AI for the game Reversi (aka Orthello) which almost always beat me.
+                            In this one, I wrote an AI for the game Reversi (aka Othello) which almost always beat me.
                           </p>
                           <ul class="list-inline item-details">
                             <li>Technologies: Python
@@ -639,6 +605,36 @@
                           <button class="btn btn-success" type="button" data-dismiss="modal">
                             <i class="fa fa-times"></i>
                             Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="projectModal6" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                      <div class="rl"></div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                          <h2>High Performance Computing - Parallelization of Minimax with OpenMP</h2>
+                          <hr class="star-primary">
+                          <img class="img-fluid img-centered" src="img_here_if_desired" alt="">
+                          <p>In CS 759, we learned all about ways to improve performance, from effective cache usage to parallelization with multithreading, GPU acceleration, or distributed computing. As part of a simple final project, I evaluated the effectiveness of paralleling the minimax algorithm in the game Othello using OpenMP. I showed that simple optimizations could be an effective means of increasing win percentage without any changes to the underlying AI logic.</p>
+                          <p>View the write up <a href="img/759-final-project.pdf" target="_blank">here</a></p>
+                            <ul class="list-inline item-details">
+                              <li>Technologies: C++, OpenMP</li>
+                            </ul>
+                            <button class="btn btn-success" type="button" data-dismiss="modal">
+                              <i class="fa fa-times"></i>
+                              Close</button>
                         </div>
                       </div>
                     </div>
