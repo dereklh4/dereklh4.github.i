@@ -21,6 +21,14 @@
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
 
+    <!-- Stuff added by me-->
+    <style>
+      header.masthead {
+        padding-top: 140px;
+        padding-bottom: 50px;
+      }
+    </style>
+
   </head>
 
   <body class="index" id="page-top">
@@ -66,6 +74,16 @@
         <hr>
         <div class="row">
           <div class="col-sm-4 portfolio-item">
+              <div class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/perblue.jpg" alt="">
+              </div>
+            </div>
+          <div class="col-sm-4 portfolio-item">
             <div class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -85,6 +103,7 @@
               <img class="img-fluid" src="img/pcc.png" alt="">
             </div>
           </div>
+          <div class="col-sm-2"></div>
           <div class="col-sm-4 portfolio-item">
             <div class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
               <div class="caption">
@@ -95,7 +114,6 @@
               <img class="img-fluid" src="img/lgs.jpg" alt="">
             </div>
           </div>
-          <div class="col-sm-2"></div>
           <div class="col-sm-4 portfolio-item">
             <div class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
               <div class="caption">
@@ -104,16 +122,6 @@
                 </div>
               </div>
               <img class="img-fluid" src="img/byutv.png" alt="">
-            </div>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <div class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/qualtrics.png" alt="">
             </div>
           </div>
           <div class="col-sm-2"></div>
@@ -127,6 +135,16 @@
         <h2 class="text-center">Other Projects</h2>
         <hr>
         <div class="row">
+          <div class="col-sm-4 portfolio-item">
+              <div class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/qualtrics.png" alt="">
+              </div>
+            </div>
           <div class="col-sm-4 portfolio-item">
             <div class="portfolio-link" href="#projectModal1" data-toggle="modal">
               <div class="caption">
@@ -158,6 +176,16 @@
             </div>
           </div>
           <!-- <div class="col-sm-2"></div> -->
+          <div class="col-sm-4 portfolio-item">
+            <div class="portfolio-link" href="#projectModal7" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/lane_tracking.png" alt="">
+            </div>
+          </div>
           <div class="col-sm-4 portfolio-item">
             <div class="portfolio-link" href="#projectModal4" data-toggle="modal">
               <div class="caption">
@@ -320,7 +348,7 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h2>Automatic Target Recognition Center</h2>
+                  <h2>Air Force Research Laboratory: Automatic Target Recognition Center</h2>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" src="img/horse2zebra.jpg" alt="">
                   <p>Data augmentation research for the Air Force Research Laboratory Sensors Directorate using cycle-consistent adversal networks (CycleGANs). More information 
@@ -462,6 +490,35 @@
         </div>
       </div>
     </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                <div class="rl"></div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <div class="modal-body">
+                    <h2>Software Engineer Intern - PerBlue</h2>
+                    <hr class="star-primary">
+                    <img class="img-fluid img-centered" src="img/perblue.jpg" alt="">
+                    <p>More info to come soon.</p>
+                    <ul class="list-inline item-details">
+                      <li>Technologies: Java, SQL, Amazon Web Services</li>
+                    </ul>
+                    <button class="btn btn-success" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i>
+                      Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- Projects Modals -->
     <div class="portfolio-modal modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -479,7 +536,7 @@
                     <h2>Spin Tac Toe</h2>
                     <hr class="star-primary">
                     <img class="img-fluid img-centered" src="img/spintactoeOnGalaxy.jpg" alt="">
-                    <p>I have enjoyed working on personal projects throughout my undergraduate degree. While in my first CS class, I started working on my first app, “Spin Tac Toe.” Building its rudimentary AI with no AI background as a freshmen inspired me to pursue more opportunities in AI going forward. It motivated me find a job in the Perception, Control, and Cognition Laboratory and take coursework in Artificial Intelligence and Machine Learning. Check out the app I built as a freshman <a href="http://www.derekhancock44.com/">here</a>.
+                    <p>I enjoyed working on personal projects throughout my undergraduate degree. While in my first CS class, I started working on my first app, “Spin Tac Toe.” Building its rudimentary AI with no AI background as a freshmen inspired me to pursue more opportunities in AI going forward. It motivated me find a job in the Perception, Control, and Cognition Laboratory and take coursework in Artificial Intelligence and Machine Learning. Check out the app I built as a freshman <a href="http://www.derekhancock44.com/">here</a>.
                     </p>
                     <ul class="list-inline item-details">
                       <li>Technologies: JavaScript, HTML, CSS
@@ -600,7 +657,7 @@
                           <h2>Records Indexer</h2>
                           <hr class="star-primary">
                           <img class="img-fluid img-centered" src="img/indexer.png" alt="">
-                          <p>This project was a genological records indexer that allows users to digitize old records. It was one of my first significant projects that included everything from the backend to the front.
+                          <p>This project was a genological records indexer that allows users to digitize old records. It was one of my first significant projects as an undergrad that included everything from the backend to the front.
                           </p>
                           <ul class="list-inline item-details">
                             <li>Technologies: Java
@@ -630,10 +687,40 @@
                           <h2>High Performance Computing - Parallelization of Minimax with OpenMP</h2>
                           <hr class="star-primary">
                           <img class="img-fluid img-centered" src="img/openmp_othello.jpg" alt="">
-                          <p>In CS 759, we learned all about ways to improve performance, from effective cache usage to parallelization with multithreading, GPU acceleration, or distributed computing. As part of a simple final project, I evaluated the effectiveness of paralleling the minimax algorithm in the game Othello using OpenMP. I showed that simple optimizations could be an effective means of increasing win percentage without any changes to the underlying AI logic.</p>
+                          <p>In High Performance Computing (CS 759), we learned all about ways to improve performance, from effective cache usage to parallelization with multithreading, GPU acceleration, or distributed computing. As part of a simple final project, I evaluated the effectiveness of paralleling the minimax algorithm in the game Othello using OpenMP. I showed that simple optimizations could be an effective means of increasing win percentage without any changes to the underlying AI logic.</p>
                           <p>View the write up <a href="img/759-final-project.pdf" target="_blank">here</a></p>
                             <ul class="list-inline item-details">
                               <li>Technologies: C++, OpenMP</li>
+                            </ul>
+                            <button class="btn btn-success" type="button" data-dismiss="modal">
+                              <i class="fa fa-times"></i>
+                              Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="projectModal7" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                      <div class="rl"></div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                          <h2>Lane Tracking in Adverse Visbility Conditions</h2>
+                          <hr class="star-primary">
+                          <img class="img-fluid img-centered" src="img/lane_tracking.png" alt="">
+                          <p>For my semester project in Computer Vision (CS 766), I researched ways to do lane tracking in adverse visibility conditions (light changes, shadows, rain, etc). The end system was able to detect lanes even in the presence of dark shadows, something that typical solutions cannot do well. If you'd like to read about the problem and project, you can visit the project webpage <a href="https://dereklh4.github.io/lane_tracking_webpage/" target="_blank">here</a>. It also contains a video of the end system in action.</p>
+                          <p>I also completed class projects using computer vision techniques to do basic object recognition, edge detection, panorama image stitching, image refocusing, and object tracking.</p>
+                            <ul class="list-inline item-details">
+                              <li>Technologies: MATLAB, Python</li>
                             </ul>
                             <button class="btn btn-success" type="button" data-dismiss="modal">
                               <i class="fa fa-times"></i>
