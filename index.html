@@ -165,7 +165,7 @@
               <img class="img-fluid" src="img/tickettoride.png" alt="">
             </div>
           </div>
-          <div class="col-sm-4 portfolio-item">
+          <!-- <div class="col-sm-4 portfolio-item">
             <div class="portfolio-link" href="#projectModal3" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -174,7 +174,7 @@
               </div>
               <img class="img-fluid" src="img/utilitytracker.png" alt="">
             </div>
-          </div>
+          </div> -->
           <!-- <div class="col-sm-2"></div> -->
           <div class="col-sm-4 portfolio-item">
             <div class="portfolio-link" href="#projectModal7" data-toggle="modal">
@@ -216,6 +216,16 @@
               <img class="img-fluid" src="img/openmp_othello.jpg" alt="">
             </div>
           </div>
+          <div class="col-sm-4 portfolio-item">
+            <div class="portfolio-link" href="#projectModal8" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/powertron.png" alt="">
+            </div>
+          </div>
           <!-- <div class="col-sm-2"></div> -->
         </div>
       <hr>
@@ -227,8 +237,9 @@
         <li>Sentiment Analysis: Using bag-of-words models, RNNs, and LSTMs to classify movie reviews as positive or negative (CS 760; Python)</li>
         <li>Machine Learning Toolbox: Writing algorithms to perform KNN, K-means, Decision Trees, Bayesian Networks, and Neural Networks (CS 478/CS 760; Python)</li>
         <li>Compilers: Implementing compilers for prolog (CS 236; C++) or for a custom language (CS 330; Julia)</li>
+        <li>Design: Semester-long group project to develop a utility tracker prototype, going from wireframes to user testing. My prototype was voted the best in the class (CS 256; HTML, CSS, JavaScript)</li>
         <li>AI: Pathfinding using potential fields or A-Star, part of speech tagging using the viterbi algorithm, and minimax with alpha-beta pruning (CS 470; Python)</li>
-        <li>Internet Programming: Building an http server, and creating a website app with a database to automatically create custom tournaments (CS 360; C++, JavaScript, HTML, CSS)</li>
+        <li>Internet Programming: Building an http server, and creating a website app with a database to automatically create custom tournaments (CS 360; C++, JavaScript, HTML, CSS, MongoDB, NodeJS)</li>
         <li>Algorithms: Testing primality, finding convex hull, network routing, basic gene sequence alignment, and traveling salesman using branch and bound and 2-opt algorithm (CS 312; C#)</li>
       </ul>
       </div>
@@ -579,7 +590,7 @@
                       <h2>Ticket To Ride App</h2>
                       <hr class="star-primary">
                       <img class="img-fluid img-centered" src="img/tickettoride.png" alt="">
-                      <p>In a software design class, I was appointed group lead with 4 other students and we developed a Ticket To Ride App. Using classic design patterns (Adapter, Facade, Proxy, Command, Observer, etc.), we built everything from the database and backend server to the frontend UI.
+                      <p>In a software design class, I was appointed group lead with 4 other students and we developed a Ticket To Ride App. Using classic design patterns (Adapter, Facade, Proxy, Command, Observer, State, Visitor, etc.), we built everything from the database and backend server to the frontend UI.
                       </p>
                       <ul class="list-inline item-details">
                         <li>Technologies: Java, SQL, Android
@@ -594,7 +605,7 @@
             </div>
           </div>
         </div>
-        <div class="portfolio-modal modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- <div class="portfolio-modal modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -609,7 +620,7 @@
                         <h2>Utility Tracker Prototype</h2>
                         <hr class="star-primary">
                         <img class="img-fluid img-centered" src="img/utilitytracker.png" alt="">
-                        <p>I developed this prototype of a smart home utility tracker with a group of 3 other students. We followed an iterative design process evolving from wireframes and many user tests. Our group was voted the best prototype in the class.</p>
+                        <p>I developed this prototype of a smart home utility tracker with a group of 3 other students during a semester-long design project. We followed an iterative design process evolving from wireframes and many user tests. Our project was voted the best prototype in the class.</p>
                         <ul class="list-inline item-details">
                           <li>Technologies: JavaScript, HTML, CSS
                         </ul>
@@ -622,7 +633,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="portfolio-modal modal fade" id="projectModal4" tabindex="-1" role="dialog" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -670,10 +681,10 @@
                           <h2>Records Indexer</h2>
                           <hr class="star-primary">
                           <img class="img-fluid img-centered" src="img/indexer.png" alt="">
-                          <p>This project was a genological records indexer that allows users to digitize old records. It was one of my first significant projects as an undergrad that included everything from the backend to the front.
+                          <p>This project was a genological records indexer that allows users to digitize old records. It was one of my first significant projects as an undergraduate that included everything from the backend database and server to the frontend UI.
                           </p>
                           <ul class="list-inline item-details">
-                            <li>Technologies: Java
+                            <li>Technologies: Java, SQL
                           </ul>
                           <button class="btn btn-success" type="button" data-dismiss="modal">
                             <i class="fa fa-times"></i>
@@ -734,6 +745,36 @@
                           <p>I also completed class projects using computer vision techniques to do basic object recognition, edge detection, panorama image stitching, image refocusing, and object tracking.</p>
                             <ul class="list-inline item-details">
                               <li>Technologies: MATLAB, Python</li>
+                            </ul>
+                            <button class="btn btn-success" type="button" data-dismiss="modal">
+                              <i class="fa fa-times"></i>
+                              Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="projectModal8" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                      <div class="rl"></div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                          <h2>Power Tron</h2>
+                          <hr class="star-primary">
+                          <img class="img-fluid img-centered" src="img/powertron.png" alt="">
+                          <p>I had some time between the end of school and an internship, so I decided to work on this project to brush up on some skills I would need for the internship. As a kid I loved playing a game called "Nort" with my brothers, which was basically Tron with some additional powerups, obstacles, and larger playing field. I decided to make a similar type of game, and I had a lot of fun doing it! Some of the powerups included missiles, speed ups, walls, and jumps.</p>
+                          <p>You can see a video of some gameplay on youtube <a href="https://www.youtube.com/watch?v=c9Ggh6ejGdY" target="_blank">here.</a></p>
+                            <ul class="list-inline item-details">
+                              <li>Technologies: Java</li>
                             </ul>
                             <button class="btn btn-success" type="button" data-dismiss="modal">
                               <i class="fa fa-times"></i>
