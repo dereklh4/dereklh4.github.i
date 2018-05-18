@@ -24,8 +24,29 @@
     <!-- Stuff added by me-->
     <style>
       header.masthead {
-        padding-top: 140px;
-        padding-bottom: 50px;
+        padding-top: 120px;
+        padding-bottom: 30px;
+      }
+      header.masthead img {
+        max-width: 150px;
+      }
+      header.masthead .intro-text .name {
+        font-size: 3em;
+      }
+      header.masthead .intro-text .skills {
+        font-size: 1.3em;
+      }
+      section {
+        padding: 40px;
+      }
+      .portfolio-modal .modal-dialog .modal-content {
+        padding: 20px;
+      }
+      .portfolio-modal .modal-dialog .modal-content img {
+        max-width: 40%;
+      }
+      p {
+        font-size: 18px;
       }
     </style>
 
@@ -73,7 +94,7 @@
         <h2 class="text-center">Work Experience</h2>
         <hr>
         <div class="row">
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm portfolio-item">
               <div class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
                 <div class="caption">
                   <div class="caption-content">
@@ -83,7 +104,7 @@
                 <img class="img-fluid" src="img/perblue.jpg" alt="">
               </div>
             </div>
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm portfolio-item">
             <div class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -93,7 +114,7 @@
               <img class="img-fluid" src="img/afrl.jpg" alt="">
             </div>
           </div>
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm portfolio-item">
             <div class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -103,8 +124,7 @@
               <img class="img-fluid" src="img/pcc.png" alt="">
             </div>
           </div>
-          <div class="col-sm-2"></div>
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm portfolio-item">
             <div class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -114,7 +134,7 @@
               <img class="img-fluid" src="img/lgs.jpg" alt="">
             </div>
           </div>
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm portfolio-item">
             <div class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -124,7 +144,6 @@
               <img class="img-fluid" src="img/byutv.png" alt="">
             </div>
           </div>
-          <div class="col-sm-2"></div>
         </div>
       </div>
     </section>
@@ -135,7 +154,7 @@
         <h2 class="text-center">Other Projects</h2>
         <hr>
         <div class="row">
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm-3 portfolio-item">
               <div class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
                 <div class="caption">
                   <div class="caption-content">
@@ -145,7 +164,7 @@
                 <img class="img-fluid" src="img/qualtrics.png" alt="">
               </div>
             </div>
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm-3 portfolio-item">
             <div class="portfolio-link" href="#projectModal1" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -155,7 +174,7 @@
               <img class="img-fluid" src="img/spintactoeOnGalaxy.jpg" alt="">
             </div>
           </div>
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm-3 portfolio-item">
             <div class="portfolio-link" href="#projectModal2" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -176,7 +195,7 @@
             </div>
           </div> -->
           <!-- <div class="col-sm-2"></div> -->
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm-3 portfolio-item">
             <div class="portfolio-link" href="#projectModal7" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -186,7 +205,7 @@
               <img class="img-fluid" src="img/lane_tracking.png" alt="">
             </div>
           </div>
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm-3 portfolio-item">
             <div class="portfolio-link" href="#projectModal4" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -196,27 +215,7 @@
               <img class="img-fluid" src="img/reversi.png" alt="">
             </div>
           </div>
-          <div class="col-sm-4 portfolio-item">
-            <div class="portfolio-link" href="#projectModal5" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/indexer.png" alt="">
-            </div>
-          </div>
-          <div class="col-sm-4 portfolio-item">
-            <div class="portfolio-link" href="#projectModal6" data-toggle="modal">
-              <div class="caption">
-                <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/openmp_othello.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-sm-4 portfolio-item">
+          <div class="col-sm-3 portfolio-item">
             <div class="portfolio-link" href="#projectModal8" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -226,6 +225,26 @@
               <img class="img-fluid" src="img/powertron.png" alt="">
             </div>
           </div>
+          <div class="col-sm-3 portfolio-item">
+            <div class="portfolio-link" href="#projectModal6" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/openmp_othello.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-sm-3 portfolio-item">
+            <div class="portfolio-link" href="#projectModal5" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/indexer.png" alt="">
+            </div>
+          </div>
           <!-- <div class="col-sm-2"></div> -->
         </div>
       <hr>
@@ -233,8 +252,8 @@
       <ul>
         <li>Data Integration: Information extraction (extracting person names from NBA articles), web crawling and entity matching (music albums), data merging/cleaning, and analysis (CS 839; Python)</li>
         <li>RDBMS Implementation: Implementing components of an RDBMS, including buffer manager and B+ Tree Indexes (CS 564; C++)</li>
-        <li>Group LASSO: Using a specialized form of the LASSO to predict movie gross revenue (CS 532; Python)</li>
-        <li>Sentiment Analysis: Using bag-of-words models, RNNs, and LSTMs to classify movie reviews as positive or negative (CS 760; Python)</li>
+        <li>Group LASSO: Using a specialized form of the LASSO to predict movie gross revenue (CS 532; Python, Matlab)</li>
+        <li>Sentiment Analysis: Using bag-of-words models, RNNs, and LSTMs to classify movie reviews as positive or negative (CS 760; Python, TensorFlow)</li>
         <li>Machine Learning Toolbox: Writing algorithms to perform KNN, K-means, Decision Trees, Bayesian Networks, and Neural Networks (CS 478/CS 760; Python)</li>
         <li>Compilers: Implementing compilers for prolog (CS 236; C++) or for a custom language (CS 330; Julia)</li>
         <li>Design: Semester-long group project to develop a utility tracker prototype, going from wireframes to user testing. My prototype was voted the best in the class (CS 256; HTML, CSS, JavaScript)</li>
@@ -372,7 +391,7 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h2>Air Force Research Laboratory: Automatic Target Recognition Center</h2>
+                  <h3>Air Force Research Laboratory: Automatic Target Recognition Center</h3>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" src="img/horse2zebra.jpg" alt="">
                   <p>Data augmentation research for the Air Force Research Laboratory Sensors Directorate using cycle-consistent adversal networks (CycleGANs). More information 
@@ -403,7 +422,7 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h2>Perception, Control, and Cognition Laboratory - BYU</h2>
+                  <h3>Perception, Control, and Cognition Laboratory - BYU</h3>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" src="img/holodeck.png" alt="">
                   <p>Inspired by recent successes in using deep reinforcement learning to beat 2D Atari games, we wanted to explore using deep learning in realistic 3D environments. Subsequently, I designed and built a photo-realistic world simulator in the gaming environment Unreal Engine that we could use to simulate agents in the real world.</p>
@@ -433,7 +452,7 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h2>Software Engineer Intern - LGS Innovations</h2>
+                  <h3>Software Engineer Intern - LGS Innovations</h3>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" src="img/lgs.jpg" alt="">
                   <p>I had the incredible opportunity to intern for LGS Innovations in Westminster, Colorado during summer 2016. I worked on the Base Station Router , a flagship product for LGS Innovations. I designed and built a new multi-threaded logger process for the BSR. This project improved logging for the BSR and made it much easier for developers to debug products that were deployed by the government in remote areas.</p>
@@ -466,7 +485,7 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h2>Front End Development - BYU Broadcasting</h2>
+                  <h3>Front End Development - BYU Broadcasting</h3>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" src="img/byutv_website.png" alt="">
                   <p>At BYU Broadcasting, I worked on a team of 7 full-time employees and 10 students that created websites and apps for platforms such as Android, iOS, Xbox, Roku, Windows Phone, Amazon FireTV, Chromecast, etc. My work focused on integrating our back-end services into the user interfaces that make up our websites and applications. In addition to programming in languages such as JavaScript, CSS, HTML, and C#, I learned to use many libraries, frameworks, and plugins such as jQuery, Gulp, NodeJS, Handlebars, Polymer, Bootstrap, etc. The main websites I worked on included byutv.org , byuradio.org, and byutvi.org. Our team built the platform, CMS, and front-end of these websites using a variety of classic as well as experimental technologies.</p>
@@ -497,7 +516,7 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h2>Senior Capstone - Qualtrics</h2>
+                  <h3>Senior Capstone - Qualtrics</h3>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" src="img/qualtrics.png" alt="">
                   <p>In collaboration with Qualtrics and as part of a BYU senior capstone project, 3 students and I designed machine learning and natural language processing tools that automatically identified actionable responses in free-response surveys. It was able to filter out over 85% of non-useful responses (as judged by human labeling) and rank responses on the degree of usefulness. This makes it easier for organizations to quickly find and use the most useful responses from many thousands of survey responses.</p>
@@ -526,7 +545,7 @@
               <div class="row">
                 <div class="col-lg-8 mx-auto">
                   <div class="modal-body">
-                    <h2>Software Engineer Intern - PerBlue</h2>
+                    <h3>Software Engineer Intern - PerBlue</h3>
                     <hr class="star-primary">
                     <img class="img-fluid img-centered" src="img/perblue.jpg" alt="">
                     <p>More info to come soon.</p>
@@ -557,7 +576,7 @@
               <div class="row">
                 <div class="col-lg-8 mx-auto">
                   <div class="modal-body">
-                    <h2>Spin Tac Toe</h2>
+                    <h3>Spin Tac Toe</h3>
                     <hr class="star-primary">
                     <img class="img-fluid img-centered" src="img/spintactoeOnGalaxy.jpg" alt="">
                     <p>I enjoyed working on personal projects throughout my undergraduate degree. While in my first CS class, I started working on my first app, “Spin Tac Toe.” Building its rudimentary AI with no AI background as a freshmen inspired me to pursue more opportunities in AI going forward. It motivated me find a job in the Perception, Control, and Cognition Laboratory and take coursework in Artificial Intelligence and Machine Learning. Check out the app I built as a freshman <a href="http://www.derekhancock44.com/">here</a>.
@@ -587,7 +606,7 @@
                 <div class="row">
                   <div class="col-lg-8 mx-auto">
                     <div class="modal-body">
-                      <h2>Ticket To Ride App</h2>
+                      <h3>Ticket To Ride App</h3>
                       <hr class="star-primary">
                       <img class="img-fluid img-centered" src="img/tickettoride.png" alt="">
                       <p>In a software design class, I was appointed group lead with 4 other students and we developed a Ticket To Ride App. Using classic design patterns (Adapter, Facade, Proxy, Command, Observer, State, Visitor, etc.), we built everything from the database and backend server to the frontend UI.
@@ -617,7 +636,7 @@
                   <div class="row">
                     <div class="col-lg-8 mx-auto">
                       <div class="modal-body">
-                        <h2>Utility Tracker Prototype</h2>
+                        <h3>Utility Tracker Prototype</h3>
                         <hr class="star-primary">
                         <img class="img-fluid img-centered" src="img/utilitytracker.png" alt="">
                         <p>I developed this prototype of a smart home utility tracker with a group of 3 other students during a semester-long design project. We followed an iterative design process evolving from wireframes and many user tests. Our project was voted the best prototype in the class.</p>
@@ -646,7 +665,7 @@
                     <div class="row">
                       <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                          <h2>Reversi AI</h2>
+                          <h3>Reversi AI</h3>
                           <hr class="star-primary">
                           <img class="img-fluid img-centered" src="img/reversi.png" alt="">
                           <p>Some of my favorite projects have involved AI and machine learning, from potential fields and part of speech tagging to building neural networks and decision trees from scratch.
@@ -678,7 +697,7 @@
                     <div class="row">
                       <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                          <h2>Records Indexer</h2>
+                          <h3>Records Indexer</h3>
                           <hr class="star-primary">
                           <img class="img-fluid img-centered" src="img/indexer.png" alt="">
                           <p>This project was a genological records indexer that allows users to digitize old records. It was one of my first significant projects as an undergraduate that included everything from the backend database and server to the frontend UI.
@@ -708,7 +727,7 @@
                     <div class="row">
                       <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                          <h2>High Performance Computing - Parallelization of Minimax with OpenMP</h2>
+                          <h3>High Performance Computing - Parallelization of Minimax with OpenMP</h3>
                           <hr class="star-primary">
                           <img class="img-fluid img-centered" src="img/openmp_othello.jpg" alt="">
                           <p>In High Performance Computing (CS 759), we learned all about ways to improve performance, from effective cache usage to parallelization with multithreading, GPU acceleration, or distributed computing. As part of a simple final project, I evaluated the effectiveness of paralleling the minimax algorithm in the game Othello using OpenMP. I showed that simple optimizations could be an effective means of increasing win percentage without any changes to the underlying AI logic.</p>
@@ -738,7 +757,7 @@
                     <div class="row">
                       <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                          <h2>Lane Tracking in Adverse Visbility Conditions</h2>
+                          <h3>Lane Tracking in Adverse Visbility Conditions</h3>
                           <hr class="star-primary">
                           <img class="img-fluid img-centered" src="img/lane_tracking.png" alt="">
                           <p>For my semester project in Computer Vision (CS 766), I researched ways to do lane tracking in adverse visibility conditions (light changes, shadows, rain, etc). The end system was able to detect lanes even in the presence of dark shadows, something that typical solutions cannot do well. My professor took me out to lunch for having one of the four best semester projects in the class. If you'd like to read about the problem and project, you can visit the project webpage <a href="https://dereklh4.github.io/lane_tracking_webpage/" target="_blank">here</a>. It also contains a video of the end system in action.</p>
@@ -768,7 +787,7 @@
                     <div class="row">
                       <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                          <h2>Power Tron</h2>
+                          <h3>Power Tron</h3>
                           <hr class="star-primary">
                           <img class="img-fluid img-centered" src="img/powertron.png" alt="">
                           <p>I had some time between the end of school and an internship, so I decided to work on this project to brush up on some skills I would need for the internship. As a kid I loved playing a game called "Nort" with my brothers, which was basically Tron with some additional powerups, obstacles, and larger playing field. I decided to make a similar type of game, and I had a lot of fun doing it! Some of the powerups included missiles, speed ups, walls, and jumps.</p>
