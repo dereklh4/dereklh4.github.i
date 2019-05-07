@@ -213,6 +213,16 @@
             </div>
           </div>
           <div class="col-sm-3 portfolio-item">
+            <div class="portfolio-link" href="#projectModal10" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/838_final_poster.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-sm-3 portfolio-item">
               <div class="portfolio-link" href="#projectModal4" data-toggle="modal">
                 <div class="caption">
                   <div class="caption-content">
@@ -274,6 +284,7 @@
         <li>Machine Learning Toolbox: Writing algorithms to perform KNN, K-means, Decision Trees, Bayesian Networks, and Neural Networks (CS 478/CS 760; Python)</li>
         <li>Compilers: Implementing compilers for prolog (CS 236; C++) or for a custom language (CS 330; Julia)</li>
         <li>Design: Semester-long group project to develop a utility tracker prototype, going from wireframes to user testing. My prototype was voted the best in the class (CS 256; HTML, CSS, JavaScript)</li>
+        <li>Medical Imaging: Applying various image processing, machine learning, and clustering algorithms, I built a program to identify diabetic retinopathy. </li>
         <li>AI: Pathfinding using potential fields or A-Star, part of speech tagging using the viterbi algorithm, and minimax with alpha-beta pruning (CS 470; Python)</li>
         <li>Internet Programming: Building an http server, and creating a website app with a database to automatically create custom tournaments (CS 360; C++, JavaScript, HTML, CSS, MongoDB, NodeJS)</li>
         <li>Algorithms: Testing primality, finding convex hull, network routing, basic gene sequence alignment, and traveling salesman using branch and bound and 2-opt algorithm (CS 312; C#)</li>
@@ -854,6 +865,35 @@
                           <p>View the write up <a href="img/744-final-project.pdf" target="_blank">here</a></p>
                             <ul class="list-inline item-details">
                               <li>Technologies: Tensorflow, Pytorch, Python</li>
+                            </ul>
+                            <button class="btn btn-success" type="button" data-dismiss="modal">
+                              <i class="fa fa-times"></i>
+                              Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="projectModal10" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                      <div class="rl"></div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                          <h3>Real-time speech-to-text transcription on the edge</h3>
+                          <hr class="star-primary">
+                          <img class="img-fluid img-centered" src="img/838_final_poster.jpg" alt="" style="max-width:100%">
+                          <p>As part of an edge computing laboratory class, I worked with 2 partners on a prototype app that could benefit from the edge. We decided to do real-time speech-to-text transcription. This app captures audio on devices, and uses a local edge device to downsample, align the streams, and label the current speaker. Only a small section of that audio is then sent to the cloud for transcription and then returned to the devices. We demonstrated some of the benefits of the edge and how it can improve privacy and throughput. We made use of the open-lambda and aws lambdas to show some of the benefits of serverless computing.</p>
+                            <ul class="list-inline item-details">
+                              <li>Technologies: NodeJS, AWS, Python, Linux</li>
                             </ul>
                             <button class="btn btn-success" type="button" data-dismiss="modal">
                               <i class="fa fa-times"></i>
