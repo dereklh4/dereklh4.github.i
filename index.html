@@ -59,6 +59,12 @@
       p {
         font-size: 18px;
       }
+      .portfolio-modal p {
+        text-align: left;
+      }
+      .portfolio-modal ul {
+        text-align: left;
+      }
     </style>
 
   </head>
@@ -90,7 +96,7 @@
     <!-- Header -->
     <header class="masthead">
       <div class="container">
-        <img class="img-fluid" src="img/profile_circle.png" alt="">
+        <img class="img-fluid" src="img/profile_circle2.png" alt="">
         <div class="intro-text">
           <span class="name">Derek Hancock</span>
           <hr class="star-light">
@@ -109,19 +115,27 @@
       <div class="container">
         <h2 class="text-center">Work Experience</h2>
         <hr>
-        <h4 style="text-align: center">I currently work full time as a software engineer at Qualtrics</h4>
-        <hr>
         <div class="row">
           <div class="col-sm portfolio-item">
-              <div class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-                <div class="caption">
-                  <div class="caption-content">
-                    <i class="fa fa-search-plus fa-3x"></i>
-                  </div>
+            <div class="portfolio-link" href="#portfolioModal7" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
                 </div>
-                <img class="img-fluid" src="img/perblue.jpg" alt="">
               </div>
+              <img class="img-fluid" src="img/qualtrics.png" alt="">
             </div>
+          </div>
+          <div class="col-sm portfolio-item">
+            <div class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/perblue.jpg" alt="">
+            </div>
+          </div>
           <div class="col-sm portfolio-item">
             <div class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
               <div class="caption">
@@ -172,7 +186,7 @@
         <h2 class="text-center">Other Projects</h2>
         <hr>
         <div class="row">
-          <div class="col-sm-3 portfolio-item">
+          <div class="col-sm portfolio-item">
             <div class="portfolio-link" href="#projectModal7" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -182,7 +196,7 @@
               <img class="img-fluid" src="img/lane_tracking.png" alt="">
             </div>
           </div>
-          <div class="col-sm-3 portfolio-item">
+          <div class="col-sm portfolio-item">
               <div class="portfolio-link" href="#projectModal9" data-toggle="modal">
                 <div class="caption">
                   <div class="caption-content">
@@ -192,7 +206,7 @@
                 <img class="img-fluid" src="img/jetson.jpg" alt="">
               </div>
             </div>
-          <div class="col-sm-3 portfolio-item">
+          <div class="col-sm portfolio-item">
             <div class="portfolio-link" href="#projectModal6" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -202,17 +216,17 @@
               <img class="img-fluid" src="img/openmp_othello.jpg" alt="">
             </div>
           </div>
-          <div class="col-sm-3 portfolio-item">
+          <div class="col-sm portfolio-item">
             <div class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/qualtrics.png" alt="">
+              <img class="img-fluid" src="img/iq_900x650.jpeg" alt="">
             </div>
           </div>
-          <div class="col-sm-3 portfolio-item">
+          <div class="col-sm portfolio-item">
             <div class="portfolio-link" href="#projectModal10" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -222,7 +236,9 @@
               <img class="img-fluid" src="img/838_final_poster.jpg" alt="">
             </div>
           </div>
-          <div class="col-sm-3 portfolio-item">
+        </div>
+        <div class="row">
+          <div class="col-sm portfolio-item">
               <div class="portfolio-link" href="#projectModal4" data-toggle="modal">
                 <div class="caption">
                   <div class="caption-content">
@@ -232,7 +248,7 @@
                 <img class="img-fluid" src="img/reversi.png" alt="">
               </div>
             </div>
-          <div class="col-sm-3 portfolio-item">
+          <div class="col-sm portfolio-item">
             <div class="portfolio-link" href="#projectModal1" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -242,7 +258,7 @@
               <img class="img-fluid" src="img/spintactoeOnGalaxy2.jpg" alt="">
             </div>
           </div>
-          <div class="col-sm-3 portfolio-item">
+          <div class="col-sm portfolio-item">
             <div class="portfolio-link" href="#projectModal2" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -252,7 +268,7 @@
               <img class="img-fluid" src="img/tickettoride.png" alt="">
             </div>
           </div>
-          <div class="col-sm-3 portfolio-item">
+          <div class="col-sm portfolio-item">
             <div class="portfolio-link" href="#projectModal8" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -262,7 +278,7 @@
               <img class="img-fluid" src="img/powertron.png" alt="">
             </div>
           </div>
-          <div class="col-sm-3 portfolio-item">
+          <div class="col-sm portfolio-item">
             <div class="portfolio-link" href="#projectModal5" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
@@ -429,8 +445,7 @@
                   <h3>Air Force Research Laboratory: Automatic Target Recognition Center</h3>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" src="img/horse2zebra.jpg" alt="">
-                  <p>Data augmentation research for the Air Force Research Laboratory Sensors Directorate using cycle-consistent adversarial networks (CycleGANs). More information 
-                    coming later after public release.
+                  <p>Data augmentation research for the Air Force Research Laboratory Sensors Directorate using cycle-consistent adversarial networks (CycleGANs). I can't give any more information without a public release.
                   </p>
                   <ul class="list-inline item-details">
                     <li>Technologies: TensorFlow, Python, Supercomputing
@@ -570,39 +585,76 @@
       </div>
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                <div class="rl"></div>
-              </div>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
             </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8 mx-auto">
-                  <div class="modal-body">
-                    <h3>Software Engineer Intern - PerBlue Entertainment</h3>
-                    <hr class="star-primary">
-                    <img class="img-fluid img-centered" src="img/perblue.jpg" alt="">
-                    <p>
-                      <ul>
-                        <li>Built critical backend server systems and game features for a new massively multiplayer real time strategy game using distributed computing techniques</li>
-                        <li>Designed new resynchronization process to execute partial resyncs, reducing message sizes by up to 30x</li>
-                      </ul>
-                    </p>
-                    <ul class="list-inline item-details">
-                      <li>Technologies: C#, Google Protobuf, Orleans, Unity</li>
-                    </ul>
-                    <button class="btn btn-success" type="button" data-dismiss="modal">
-                      <i class="fa fa-times"></i>
-                      Close</button>
-                  </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h3>Software Engineer Intern - PerBlue Entertainment</h3>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/perblue.jpg" alt="">
+                  <p>
+                    PerBlue is a startup gaming company that has successfully sold multimillion dollar games, and recently launched a game in collaboration with Disney.
+                    As a backend software engineer intern, I worked on a massive multiplayer real time strategy title. I built critical backend server systems and game features using distributed computing techniques to support the large multiplayer world. I also designed a new resynchronization process to execute partial resents, reducing message sizes by up to 30x.
+                  </p>
+                  <ul class="list-inline item-details">
+                    <li>Technologies: C#, Google Protobuf, Orleans, Unity</li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h3>Software Engineer - Qualtrics</h3>
+                  <hr class="star-primary">
+                  <img class="img-fluid img-centered" src="img/perblue.jpg" alt="">
+                  <p>
+                    I currently work full time as a software engineer at Qualtrics. I work on the backend for managing projects, collaborating projects across multiple data centers, and free accounts and upgrades.
+                  </p>
+                  <p>
+                      A couple of my accomplishments from the last 3 months include: 
+                  </p>
+                  <ul>
+                    <li>Designing and building data relocation service for survey collaboration, reducing related customer tickets (statistics on reduction coming in a couple months, but I suspect it will be around 40%)</li>
+                    <li>Enhancing the free account backend service (1000+ signups per day) to support time-limited trials, and adding support for database transactions, integration tests, and faster unit tests (43x speedup)</li>
+                  </ul>
+
+                  <ul class="list-inline item-details">
+                    <li>Technologies and Tools: Go, JavaScript, Java, Jenkins, Sumo Logic, SQL, Postgres, AWS, Nomad, Consul</li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Projects Modals -->
     <div class="portfolio-modal modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-hidden="true">
